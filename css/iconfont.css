@@ -1,14 +1,30 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1689163561749') format('truetype');
+  src: url('iconfont.ttf?t=1689166181975') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhaoxiangji:before {
+  content: "\f0092";
+}
+
+.icon-weibo:before {
+  content: "\e64b";
+}
+
+.icon-youxiang:before {
+  content: "\e908";
+}
+
+.icon-github:before {
+  content: "\e64c";
 }
 
 .icon-QQ:before {
